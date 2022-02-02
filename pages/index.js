@@ -1,6 +1,5 @@
 import Head from 'next/head';
 
-
 export default function Home() {
   return (
     <div>
@@ -10,7 +9,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <h1>Linkeed in </h1>
+      <main className="h-screen w-screen flex flex-col items-center justify-center">
+        <h2> Home Page </h2>
+      </main>
     </div>
   );
 }
